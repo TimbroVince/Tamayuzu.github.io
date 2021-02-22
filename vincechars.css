@@ -1,6 +1,6 @@
 .tinytext
 {
-	font-size:1em;
+	font-size:0.6em;
 }
 
 img
@@ -8,7 +8,16 @@ img
 	width:100%;
 }
 
-body
+.topmargin
 {
-	max-width:1024px;
+	margin-top:20px;
+}
+
+.divider
+{
+	Width:100%;
+	height:10px;
+	background-color:orange;
+	margin-top:20px;
+	margin-bottom:20px;
 }
