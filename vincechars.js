@@ -590,8 +590,7 @@ $(document).ready(function(){
 		
 		'<div class="row">' +
 			'<div class="col-md-6">'+
-				//'<img src="images/'+item["name"]+'.png">'+
-				'<img src="images/Nimblemind.png">'+
+				'<img src="images/'+item["name"]+'.jpg">'+
 			'</div>'+
 			'<div class="col-md-6">'+
 				'<table class="table table-bordered">'+
