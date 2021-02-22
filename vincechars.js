@@ -238,7 +238,7 @@ $(document).ready(function(){
 	});	
 	
 	charData.push({
-		name: "Abélia",
+		name: "Abelia",
 		category: "2",
 		race: "Night Elf",
 		class: "Engineer",
@@ -316,7 +316,7 @@ $(document).ready(function(){
 	});	
 	
 	charData.push({
-		name: "Atul'zak",
+		name: "Atulzak",
 		category: "3",
 		race: "Atal'ai Troll",
 		class: "AAAAAA",
@@ -590,7 +590,8 @@ $(document).ready(function(){
 		
 		'<div class="row">' +
 			'<div class="col-md-6">'+
-				'<img src="images/'+item["name"]+'.png">'+
+				//'<img src="images/'+item["name"]+'.png">'+
+				'<img src="images/Nimblemind.png">'+
 			'</div>'+
 			'<div class="col-md-6">'+
 				'<table class="table table-bordered">'+
