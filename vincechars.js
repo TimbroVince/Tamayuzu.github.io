@@ -28,17 +28,7 @@ $(document).ready(function(){
 	// HUMANS
 	//
 	// --------------------------
-	
-	charData.push({
-		name: "Adora",
-		category: "0",
-		race: "Human",
-		class: "Paladin",
-		subclass: "Protection",
-		age: 99999999,
-		story: "WWWWWWWW"
-	});
-	
+		
 	charData.push({
 		name: "Heisenberg",
 		category: "0",
@@ -65,6 +55,16 @@ $(document).ready(function(){
 		race: "Human (Undead)",
 		class: "Death Knight",
 		subclass: "Frost",
+		age: 99999999,
+		story: "WWWWWWWW"
+	});
+
+	charData.push({
+		name: "Adora",
+		category: "0",
+		race: "Human",
+		class: "Paladin",
+		subclass: "Protection",
 		age: 99999999,
 		story: "WWWWWWWW"
 	});
@@ -324,6 +324,16 @@ $(document).ready(function(){
 		age: 99999999,
 		story: "WWWWWWWW"
 	});	
+	
+	charData.push({
+		name: "Atulza",
+		category: "3",
+		race: "Atal'ai Troll",
+		class: "AAAAAA",
+		subclass: "AAAAAA",
+		age: 99999999,
+		story: "WWWWWWWW"
+	});	
 
 	// --------------------------
 	//
@@ -543,7 +553,7 @@ $(document).ready(function(){
 	// --------------------------
 	
 	charData.push({
-		name: "Reina",
+		name: "Kuzunoha",
 		category: "9",
 		race: "Vulpera",
 		class: "Mistweaver",
