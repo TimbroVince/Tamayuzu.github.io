@@ -276,7 +276,7 @@ $(document).ready(function(){
 	// --------------------------
 
 	charData.push({
-		name: "Juanka",
+		name: "Atulza",
 		category: "3",
 		race: "Sandfury Troll",
 		class: "AAAAAA",
@@ -316,17 +316,7 @@ $(document).ready(function(){
 	});	
 	
 	charData.push({
-		name: "Atulzak",
-		category: "3",
-		race: "Atal'ai Troll",
-		class: "AAAAAA",
-		subclass: "AAAAAA",
-		age: 99999999,
-		story: "WWWWWWWW"
-	});	
-	
-	charData.push({
-		name: "Atulza",
+		name: "Juanka",
 		category: "3",
 		race: "Atal'ai Troll",
 		class: "AAAAAA",
