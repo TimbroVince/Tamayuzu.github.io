@@ -15,10 +15,16 @@ header h1
 	margin-bottom:20px;
 }
 
+body
+{
+	background-color:black;
+	color:white;
+}
+
 
 .tab-pane
 {
-	border:1px solid #dee2e6;
+	border:1px solid #666666;
 	border-top:none;
 	padding:20px;
 	padding-top:0px;
@@ -42,7 +48,31 @@ header h1
 	font-size:0.6em;
 }
 
+.table tr
+{
+		border-color:#333333;
+}
 .table tr th
 {
 	width:3.2rem;
+	border-color:#333333;
+	color:#FFFFAA;
 }
+
+.table tr td
+{
+	border-color:#333333;
+	color:white;
+}
+
+table
+{
+	color:white;
+}
+
+.nav-tabs .nav-link, .nav-tabs
+{
+	border-color:#666666;
+	color:white;
+}
+

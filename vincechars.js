@@ -38,17 +38,7 @@ $(document).ready(function(){
 		age: 51,
 		story: "A great alchemist who combines the power of magic with alchemy."
 	});
-	
-	charData.push({
-		name: "Lockhart",
-		category: "0",
-		race: "Human",
-		class: "",
-		subclass: "Brawler",
-		age: 31,
-		story: "WWWWWWWW"
-	});
-	
+
 	charData.push({
 		name: "Kratos",
 		category: "0",
@@ -58,7 +48,7 @@ $(document).ready(function(){
 		age: 99999999,
 		story: "WWWWWWWW"
 	});
-
+	
 	charData.push({
 		name: "Adora",
 		category: "0",
@@ -67,15 +57,15 @@ $(document).ready(function(){
 		subclass: "Protection",
 		age: 99999999,
 		story: "WWWWWWWW"
-	});
+	});	
 	
 	charData.push({
-		name: "Ashworth",
+		name: "Lockhart",
 		category: "0",
-		race: "Human (Worgen cursed)",
+		race: "Human",
 		class: "",
-		subclass: "Assassin",
-		age: 99999999,
+		subclass: "Brawler",
+		age: 31,
 		story: "WWWWWWWW"
 	});
 	
@@ -98,6 +88,47 @@ $(document).ready(function(){
 		age: 99999999,
 		story: "WWWWWWWW"
 	});	
+
+	charData.push({
+		name: "Ashworth",
+		category: "0",
+		race: "Human (Worgen cursed)",
+		class: "",
+		subclass: "Assassin",
+		age: 99999999,
+		story: "WWWWWWWW"
+	});
+	
+	charData.push({
+		name: "Yuzuyu",
+		category: "0",
+		race: "Human (Forsaken Undead)",
+		class: "",
+		subclass: "",
+		age: 0,
+		story: "WWWWWWWWWW"
+	});	
+
+	charData.push({
+		name: "Thanathal",
+		category: "0",
+		race: "Human (Forsaken Undead)",
+		class: "",
+		subclass: "",
+		age: 0,
+		story: "WWWWWWWWWW"
+	});		
+	
+	charData.push({
+		name: "Nesmeus",
+		category: "0",
+		race: "Human (Forsaken Undead)",
+		class: "",
+		subclass: "",
+		age: 0,
+		story: "WWWWWWWWWW"
+	});	
+	
 	
 	// --------------------------
 	//
@@ -108,7 +139,7 @@ $(document).ready(function(){
 	charData.push({
 		name: "Gorthul",
 		category: "1",
-		race: "Orc (Tainted)",
+		race: "Tainted Orc",
 		class: "Warlock",
 		subclass: "Fel Destruction",
 		age: 99999999,
@@ -118,7 +149,7 @@ $(document).ready(function(){
 	charData.push({
 		name: "Lokra",
 		category: "1",
-		race: "Orc (Frostwolf)",
+		race: "Frostwolf Orc (Undead)",
 		class: "Warrior",
 		subclass: "Frost",
 		age: 99999999,
@@ -128,7 +159,7 @@ $(document).ready(function(){
 	charData.push({
 		name: "Krogosh",
 		category: "1",
-		race: "Mag'har Orc (Warsong)",
+		race: "Warsong Orc",
 		class: "Warrior",
 		subclass: "Arms",
 		age: 99999999,
@@ -138,7 +169,7 @@ $(document).ready(function(){
 	charData.push({
 		name: "Mokaia",
 		category: "1",
-		race: "Mag'har Orc (Blackrock)",
+		race: "Blackrock Orc",
 		class: "Hunter",
 		subclass: "Survival",
 		age: 99999999,
@@ -226,6 +257,16 @@ $(document).ready(function(){
 		age: 99999999,
 		story: "WWWWWWWW"
 	});	
+
+	charData.push({
+		name: "Abelia",
+		category: "2",
+		race: "Night Elf",
+		class: "Engineer",
+		subclass: "Fel",
+		age: 99999999,
+		story: "WWWWWWWW"
+	});	
 	
 	charData.push({
 		name: "Yfedion",
@@ -233,16 +274,6 @@ $(document).ready(function(){
 		race: "Night Elf",
 		class: "Demon Hunter",
 		subclass: "",
-		age: 99999999,
-		story: "WWWWWWWW"
-	});	
-	
-	charData.push({
-		name: "Abelia",
-		category: "2",
-		race: "Night Elf",
-		class: "Engineer",
-		subclass: "Fel",
 		age: 99999999,
 		story: "WWWWWWWW"
 	});	
