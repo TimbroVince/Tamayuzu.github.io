@@ -192,8 +192,18 @@ $(document).ready(function(){
 		subclass: "Retribution",
 		age: 99999999,
 		story: "WWWWWWWW"
-	});	
-
+	});
+	
+	charData.push({
+		name: "Sylvie",
+		category: "2",
+		race: "Blood Elf",
+		class: "Hunter",
+		subclass: "Demon",
+		age: 99999999,
+		story: "WWWWWWWW"
+	});
+	
 	charData.push({
 		name: "Viserys",
 		category: "2",
@@ -204,17 +214,17 @@ $(document).ready(function(){
 		story: "WWWWWWWW"
 	});	
 
+	//Void Elves ---------------
+
 	charData.push({
-		name: "Sylvie",
+		name: "Kaleina",
 		category: "2",
-		race: "Blood Elf",
-		class: "Hunter",
-		subclass: "Demon",
+		race: "Void Elf",
+		class: "Warlock",
+		subclass: "Affliction",
 		age: 99999999,
 		story: "WWWWWWWW"
 	});	
-
-	//Void Elves ---------------
 	
 	charData.push({
 		name: "Magus",
@@ -226,16 +236,6 @@ $(document).ready(function(){
 		story: "WWWWWWWW"
 	});	
 	
-	charData.push({
-		name: "Kaleina",
-		category: "2",
-		race: "Void Elf",
-		class: "Warlock",
-		subclass: "Affliction",
-		age: 99999999,
-		story: "WWWWWWWW"
-	});	
-
 	//Night elves ---------------
 	
 	charData.push({
@@ -257,16 +257,6 @@ $(document).ready(function(){
 		age: 99999999,
 		story: "WWWWWWWW"
 	});	
-
-	charData.push({
-		name: "Abelia",
-		category: "2",
-		race: "Night Elf",
-		class: "Engineer",
-		subclass: "Fel",
-		age: 99999999,
-		story: "WWWWWWWW"
-	});	
 	
 	charData.push({
 		name: "Yfedion",
@@ -274,6 +264,16 @@ $(document).ready(function(){
 		race: "Night Elf",
 		class: "Demon Hunter",
 		subclass: "",
+		age: 99999999,
+		story: "WWWWWWWW"
+	});	
+
+	charData.push({
+		name: "Abelia",
+		category: "2",
+		race: "Night Elf",
+		class: "Engineer",
+		subclass: "Fel",
 		age: 99999999,
 		story: "WWWWWWWW"
 	});	
