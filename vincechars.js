@@ -45,7 +45,7 @@ $(document).ready(function(){
 		race: "Human (Undead)",
 		class: "Death Knight",
 		subclass: "Frost",
-		age: 99999999,
+		age: 43,
 		story: "WWWWWWWW"
 	});
 	
@@ -55,7 +55,7 @@ $(document).ready(function(){
 		race: "Human",
 		class: "Paladin",
 		subclass: "Protection",
-		age: 99999999,
+		age: 27,
 		story: "WWWWWWWW"
 	});	
 	
@@ -73,9 +73,9 @@ $(document).ready(function(){
 		name: "Othmar",
 		category: "0",
 		race: "Human (Kul Tiran)",
-		class: "Sage",
-		subclass: "Tide",
-		age: 99999999,
+		class: "Outlaw",
+		subclass: "",
+		age: 47,
 		story: "WWWWWWWW"
 	});
 
@@ -85,7 +85,7 @@ $(document).ready(function(){
 		race: "Human (Kul Tiran)",
 		class: "Druid",
 		subclass: "Drust",
-		age: 99999999,
+		age: 38,
 		story: "WWWWWWWW"
 	});	
 
@@ -95,7 +95,7 @@ $(document).ready(function(){
 		race: "Human (Worgen cursed)",
 		class: "",
 		subclass: "Assassin",
-		age: 99999999,
+		age: 30,
 		story: "WWWWWWWW"
 	});
 	
@@ -105,7 +105,7 @@ $(document).ready(function(){
 		race: "Human (Forsaken Undead)",
 		class: "",
 		subclass: "",
-		age: 0,
+		age: 33,
 		story: "WWWWWWWWWW"
 	});	
 
@@ -115,7 +115,7 @@ $(document).ready(function(){
 		race: "Human (Forsaken Undead)",
 		class: "",
 		subclass: "",
-		age: 0,
+		age: 37,
 		story: "WWWWWWWWWW"
 	});		
 	
@@ -125,7 +125,7 @@ $(document).ready(function(){
 		race: "Human (Forsaken Undead)",
 		class: "",
 		subclass: "",
-		age: 0,
+		age: 26,
 		story: "WWWWWWWWWW"
 	});	
 	
@@ -142,17 +142,17 @@ $(document).ready(function(){
 		race: "Tainted Orc",
 		class: "Warlock",
 		subclass: "Fel Destruction",
-		age: 99999999,
+		age: 40,
 		story: "WWWWWWWW"
 	});
 	
 	charData.push({
 		name: "Lokra",
 		category: "1",
-		race: "Frostwolf Orc (Undead)",
+		race: "Half-orc, Half-Draenei",
 		class: "Warrior",
 		subclass: "Frost",
-		age: 99999999,
+		age: 46,
 		story: "WWWWWWWW"
 	});	
 
@@ -162,7 +162,7 @@ $(document).ready(function(){
 		race: "Warsong Orc",
 		class: "Warrior",
 		subclass: "Arms",
-		age: 99999999,
+		age: 24,
 		story: "WWWWWWWW"
 	});		
 	
@@ -172,7 +172,7 @@ $(document).ready(function(){
 		race: "Blackrock Orc",
 		class: "Hunter",
 		subclass: "Survival",
-		age: 99999999,
+		age: 32,
 		story: "WWWWWWWW"
 	});		
 
@@ -190,7 +190,7 @@ $(document).ready(function(){
 		race: "Blood Elf",
 		class: "Paladin",
 		subclass: "Retribution",
-		age: 99999999,
+		age: 330,
 		story: "WWWWWWWW"
 	});
 	
@@ -200,7 +200,7 @@ $(document).ready(function(){
 		race: "Blood Elf",
 		class: "Hunter",
 		subclass: "Demon",
-		age: 99999999,
+		age: 615,
 		story: "WWWWWWWW"
 	});
 	
@@ -210,7 +210,7 @@ $(document).ready(function(){
 		race: "Blood Elf",
 		class: "Warlock",
 		subclass: "Destruction",
-		age: 99999999,
+		age: 215,
 		story: "WWWWWWWW"
 	});	
 
@@ -220,9 +220,9 @@ $(document).ready(function(){
 		name: "Kaleina",
 		category: "2",
 		race: "Void Elf",
-		class: "Warlock",
-		subclass: "Affliction",
-		age: 99999999,
+		class: "Dancer",
+		subclass: "",
+		age: 115,
 		story: "WWWWWWWW"
 	});	
 	
@@ -232,7 +232,7 @@ $(document).ready(function(){
 		race: "Void Elf (Undead)",
 		class: "Death Knight",
 		subclass: "Blood",
-		age: 99999999,
+		age: 2160,
 		story: "WWWWWWWW"
 	});	
 	
@@ -244,7 +244,7 @@ $(document).ready(function(){
 		race: "Night Elf",
 		class: "Hunter",
 		subclass: "Marksmanship",
-		age: 99999999,
+		age: 1651,
 		story: "WWWWWWWW"
 	});	
 	
@@ -254,7 +254,7 @@ $(document).ready(function(){
 		race: "Night Elf",
 		class: "Druid",
 		subclass: "Restoration",
-		age: 99999999,
+		age: 12173,
 		story: "WWWWWWWW"
 	});	
 	
@@ -264,7 +264,7 @@ $(document).ready(function(){
 		race: "Night Elf",
 		class: "Demon Hunter",
 		subclass: "",
-		age: 99999999,
+		age: 10213,
 		story: "WWWWWWWW"
 	});	
 
@@ -274,7 +274,7 @@ $(document).ready(function(){
 		race: "Night Elf",
 		class: "Engineer",
 		subclass: "Fel",
-		age: 99999999,
+		age: 13193,
 		story: "WWWWWWWW"
 	});	
 		
@@ -286,7 +286,7 @@ $(document).ready(function(){
 		race: "Nightborne Elf",
 		class: "Mage",
 		subclass: "Arcane",
-		age: 99999999,
+		age: 10312,
 		story: "WWWWWWWW"
 	});	
 	
@@ -296,7 +296,7 @@ $(document).ready(function(){
 		race: "Nightborne Elf",
 		class: "Rogue",
 		subclass: "Subtlety",
-		age: 99999999,
+		age: 10531,
 		story: "WWWWWWWW"
 	});	
 
@@ -312,7 +312,7 @@ $(document).ready(function(){
 		race: "Sandfury Troll",
 		class: "AAAAAA",
 		subclass: "AAAAAA",
-		age: 99999999,
+		age: 23,
 		story: "WWWWWWWW"
 	});	
 
@@ -322,7 +322,7 @@ $(document).ready(function(){
 		race: "Darkspear Troll",
 		class: "AAAAAA",
 		subclass: "AAAAAA",
-		age: 99999999,
+		age: 115,
 		story: "WWWWWWWW"
 	});	
 	
@@ -332,7 +332,7 @@ $(document).ready(function(){
 		race: "Zandalari Troll",
 		class: "AAAAAA",
 		subclass: "AAAAAA",
-		age: 99999999,
+		age: 43,
 		story: "WWWWWWWW"
 	});	
 	
@@ -342,7 +342,7 @@ $(document).ready(function(){
 		race: "Zandalari Troll",
 		class: "AAAAAA",
 		subclass: "AAAAAA",
-		age: 99999999,
+		age: 180,
 		story: "WWWWWWWW"
 	});	
 	
@@ -352,7 +352,7 @@ $(document).ready(function(){
 		race: "Atal'ai Troll",
 		class: "AAAAAA",
 		subclass: "AAAAAA",
-		age: 99999999,
+		age: 24,
 		story: "WWWWWWWW"
 	});	
 
@@ -368,7 +368,7 @@ $(document).ready(function(){
 		race: "Gnome",
 		class: "Engineer",
 		subclass: "Warrior",
-		age: 0,
+		age: 46,
 		story: "WWWWWWWWWW"
 	});	
 	
@@ -378,7 +378,7 @@ $(document).ready(function(){
 		race: "Gnome",
 		class: "Warlock",
 		subclass: "Demonology",
-		age: 0,
+		age: 110,
 		story: "WWWWWWWWWW"
 	});	
 	
@@ -388,17 +388,17 @@ $(document).ready(function(){
 		race: "Mechagnome",
 		class: "Explorer",
 		subclass: "Marksman",
-		age: 0,
+		age: 310,
 		story: "WWWWWWWWWW"
 	});	
 
 	charData.push({
-		name: "Shinyscalpel",
+		name: "Autolizabeth",
 		category: "4",
 		race: "Mechagnome",
-		class: "Surgeon",
+		class: "Thermo-enhancement specialist",
 		subclass: "",
-		age: 0,
+		age: 178,
 		story: "WWWWWWWWWW"
 	});	
 	
@@ -412,9 +412,9 @@ $(document).ready(function(){
 		name: "Megzi",
 		category: "5",
 		race: "Goblin",
-		class: "Outlaw",
+		class: "Rogue",
 		subclass: "",
-		age: 0,
+		age: 22,
 		story: "WWWWWWWWWW"
 	});	
 
@@ -424,7 +424,7 @@ $(document).ready(function(){
 		race: "Goblin",
 		class: "Tinkerer",
 		subclass: "",
-		age: 0,
+		age: 33,
 		story: "WWWWWWWWWW"
 	});		
 	
@@ -440,7 +440,7 @@ $(document).ready(function(){
 		race: "Bronzebeard Dwarf",
 		class: "Berserker",
 		subclass: "",
-		age: 0,
+		age: 136,
 		story: "WWWWWWWWWW"
 	});	
 	
@@ -450,7 +450,7 @@ $(document).ready(function(){
 		race: "Wildhammer Dwarf",
 		class: "Brewmaster",
 		subclass: "",
-		age: 0,
+		age: 110,
 		story: "WWWWWWWWWW"
 	});	
 	
@@ -460,7 +460,7 @@ $(document).ready(function(){
 		race: "Dark Iron Dwarf",
 		class: "Shaman",
 		subclass: "Elemental",
-		age: 0,
+		age: 217,
 		story: "WWWWWWWWWW"
 	});	
 	
@@ -470,7 +470,7 @@ $(document).ready(function(){
 		race: "Dark Iron Dwarf",
 		class: "Blacksmith",
 		subclass: "",
-		age: 0,
+		age: 54,
 		story: "WWWWWWWWWW"
 	});	
 
@@ -486,7 +486,7 @@ $(document).ready(function(){
 		race: "Grimtotem Tauren",
 		class: "Blacksmith",
 		subclass: "",
-		age: 0,
+		age: 23,
 		story: "WWWWWWWWWW"
 	});	
 
@@ -496,7 +496,7 @@ $(document).ready(function(){
 		race: "Mistrunner Tauren",
 		class: "",
 		subclass: "",
-		age: 0,
+		age: 61,
 		story: "WWWWWWWWWW"
 	});	
 	
@@ -506,7 +506,7 @@ $(document).ready(function(){
 		race: "Feltotem Tauren",
 		class: "",
 		subclass: "",
-		age: 0,
+		age: 43,
 		story: "WWWWWWWWWW"
 	});	
 	
@@ -516,7 +516,7 @@ $(document).ready(function(){
 		race: "Highmountain Tauren",
 		class: "",
 		subclass: "",
-		age: 0,
+		age: 28,
 		story: "WWWWWWWWWW"
 	});	
 
@@ -530,9 +530,9 @@ $(document).ready(function(){
 		name: "Ahmos",
 		category: "8",
 		race: "Draenei",
-		class: "Mage",
-		subclass: "Crystal",
-		age: 0,
+		class: "Shaman",
+		subclass: "Warrior",
+		age: 6520,
 		story: "WWWWWWWWWW"
 	});	
 
@@ -542,7 +542,7 @@ $(document).ready(function(){
 		race: "Draenei",
 		class: "Beastmaster",
 		subclass: "",
-		age: 0,
+		age: 13415,
 		story: "WWWWWWWWWW"
 	});	
 	
@@ -552,7 +552,7 @@ $(document).ready(function(){
 		race: "Lightforged Draenei",
 		class: "Paladin",
 		subclass: "Holy",
-		age: 0,
+		age: 23100,
 		story: "WWWWWWWWWW"
 	});	
 	
@@ -562,7 +562,7 @@ $(document).ready(function(){
 		race: "Lightforged Draenei",
 		class: "Priest",
 		subclass: "Holy",
-		age: 0,
+		age: 17300,
 		story: "WWWWWWWWWW"
 	});	
 
@@ -579,7 +579,7 @@ $(document).ready(function(){
 		race: "Vulpera",
 		class: "Mistweaver",
 		subclass: "",
-		age: 0,
+		age: 15,
 		story: "WWWWWWWWWW"
 	});		
 	
@@ -595,7 +595,7 @@ $(document).ready(function(){
 		race: "Pandaren",
 		class: "Priest",
 		subclass: "Shadow",
-		age: 0,
+		age: 270,
 		story: "WWWWWWWWWW"
 	});	
 	
