@@ -481,12 +481,12 @@ $(document).ready(function(){
 	// --------------------------	
 
 	charData.push({
-		name: "Cinderhorn",
+		name: "Riverstone",
 		category: "7",
-		race: "Grimtotem Tauren",
+		race: "Rivermane Tauren",
 		class: "Blacksmith",
 		subclass: "",
-		age: 23,
+		age: 43,
 		story: "WWWWWWWWWW"
 	});	
 
@@ -503,10 +503,10 @@ $(document).ready(function(){
 	charData.push({
 		name: "Menetus",
 		category: "7",
-		race: "Feltotem Tauren",
+		race: "Grimtotem Tauren",
 		class: "",
 		subclass: "",
-		age: 43,
+		age: 23,
 		story: "WWWWWWWWWW"
 	});	
 	
