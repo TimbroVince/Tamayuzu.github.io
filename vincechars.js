@@ -1,4 +1,4 @@
-//portrait image width: 250x250
+ //portrait image width: 250x250
 //profile photo width: 1024
 
 $(document).ready(function(){
@@ -19,8 +19,6 @@ $(document).ready(function(){
 		"Pandaren"		//10
 	];
 	
-	
-	
 	var charData = [];
 
 	// --------------------------
@@ -33,10 +31,10 @@ $(document).ready(function(){
 		name: "Heisenberg",
 		category: "0",
 		race: "Human",
-		class: "Mage",
+		class: "Priest",
 		subclass: "Alchemist",
 		age: 51,
-		story: "A great alchemist who combines the power of magic with alchemy."
+		story: "Heisenberg combines the power of the light with alchemy."
 	});
 
 	charData.push({
@@ -93,28 +91,28 @@ $(document).ready(function(){
 		name: "Ashworth",
 		category: "0",
 		race: "Human (Worgen cursed)",
-		class: "",
-		subclass: "Assassin",
+		class: "Warrior",
+		subclass: "Fury",
 		age: 30,
 		story: "WWWWWWWW"
 	});
 	
 	charData.push({
-		name: "Yuzuyu",
+		name: "Fitzsimmons",
 		category: "0",
-		race: "Human (Forsaken Undead)",
-		class: "",
-		subclass: "",
-		age: 33,
-		story: "WWWWWWWWWW"
-	});	
+		race: "Human (Worgen cursed)",
+		class: "Mage",
+		subclass: "Arcane",
+		age: 30,
+		story: "WWWWWWWW"
+	});
 
 	charData.push({
 		name: "Thanathal",
 		category: "0",
 		race: "Human (Forsaken Undead)",
-		class: "",
-		subclass: "",
+		class: "Mage",
+		subclass: "Frost",
 		age: 37,
 		story: "WWWWWWWWWW"
 	});		
@@ -123,7 +121,7 @@ $(document).ready(function(){
 		name: "Nesmeus",
 		category: "0",
 		race: "Human (Forsaken Undead)",
-		class: "",
+		class: "Beastmaster",
 		subclass: "",
 		age: 26,
 		story: "WWWWWWWWWW"
@@ -139,21 +137,21 @@ $(document).ready(function(){
 	charData.push({
 		name: "Gorthul",
 		category: "1",
-		race: "Tainted Orc",
+		race: "Tainted Shadowmoon Orc",
 		class: "Warlock",
 		subclass: "Fel Destruction",
 		age: 40,
-		story: "WWWWWWWW"
+		story: "Gothul was once a great shaman like every other member of the Shadowmoon Clan but he always wanted more power. He was one of Gul'dan's loyal followers and gladly abandoned the elements in favor of the power offered by the demons of the Burning Legion. In his quest to increase his control over Fel energy, he burned out his own eyes. He is said to be one of the most powerful Orcish Warlocks, second only to Gul'dan himself"
 	});
 	
 	charData.push({
 		name: "Lokra",
 		category: "1",
-		race: "Half-orc, Half-Draenei",
-		class: "Warrior",
-		subclass: "Frost",
-		age: 46,
-		story: "WWWWWWWW"
+		race: "Tainted Frostwolf Orc",
+		class: "Rogue",
+		subclass: "Shadow",
+		age: 38,
+		story: "Rumored to be the younger sister of Draka, Durotan's mate. She was once part of the Frostwolf Clan, but now she wields void powers like the Shadowmoon Clan once did. She can rarely be seen hunting down members of the Burning Legion wherever they appear and then vanishing into wilds of Kalimdor."
 	});	
 
 	charData.push({
@@ -269,11 +267,11 @@ $(document).ready(function(){
 	});	
 
 	charData.push({
-		name: "Abelia",
+		name: "Espertina",
 		category: "2",
 		race: "Night Elf",
-		class: "Engineer",
-		subclass: "Fel",
+		class: "Mage",
+		subclass: "Highborne",
 		age: 13193,
 		story: "WWWWWWWW"
 	});	
@@ -294,8 +292,8 @@ $(document).ready(function(){
 		name: "Menori",
 		category: "2",
 		race: "Nightborne Elf",
-		class: "Rogue",
-		subclass: "Subtlety",
+		class: "Battle Mage",
+		subclass: "Frost",
 		age: 10531,
 		story: "WWWWWWWW"
 	});	
@@ -366,8 +364,8 @@ $(document).ready(function(){
 		name: "Hackwrench",
 		category: "4",
 		race: "Gnome",
-		class: "Engineer",
-		subclass: "Warrior",
+		class: "Rogue",
+		subclass: "Engineer",
 		age: 46,
 		story: "WWWWWWWWWW"
 	});	
@@ -412,8 +410,8 @@ $(document).ready(function(){
 		name: "Megzi",
 		category: "5",
 		race: "Goblin",
-		class: "Rogue",
-		subclass: "",
+		class: "/ Rogue",
+		subclass: "Field Medic",
 		age: 22,
 		story: "WWWWWWWWWW"
 	});	
@@ -438,8 +436,8 @@ $(document).ready(function(){
 		name: "Dunheann",
 		category: "6",
 		race: "Bronzebeard Dwarf",
-		class: "Berserker",
-		subclass: "",
+		class: "Warrior",
+		subclass: "Protection",
 		age: 136,
 		story: "WWWWWWWWWW"
 	});	
@@ -557,7 +555,7 @@ $(document).ready(function(){
 	});	
 	
 	charData.push({
-		name: "Zynthia",
+		name: "Arayla",
 		category: "8",
 		race: "Lightforged Draenei",
 		class: "Priest",
@@ -635,5 +633,12 @@ $(document).ready(function(){
 			'</div>'+
 		'</div>');
 	});
+	
+	$("#navbody").css("padding-top", $("#navheader").height());
+	$( window ).resize(function() {
+	  	$("#navbody").css("padding-top", $("#navheader").height());
+	});
+	//Set the body's top paddingBottom
+
 	
 });
