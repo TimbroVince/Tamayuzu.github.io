@@ -29,7 +29,8 @@ $(document).ready(function(){
 		
 	charData.push({
 		name: "Heisenberg",
-		category: "0",
+		jname: "ハイゼンベルク", 
+ 		category: "0",
 		race: "Human",
 		class: "Priest",
 		subclass: "Alchemist",
@@ -39,7 +40,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Kratos",
-		category: "0",
+		jname: "ZZZZ", 
+ 		category: "0",
 		race: "Human (Undead)",
 		class: "Death Knight",
 		subclass: "Frost",
@@ -49,7 +51,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Adora",
-		category: "0",
+		jname: "ZZZZ", 
+ 		category: "0",
 		race: "Human",
 		class: "Paladin",
 		subclass: "Protection",
@@ -59,7 +62,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Lockhart",
-		category: "0",
+		jname: "ZZZZ", 
+ 		category: "0",
 		race: "Human",
 		class: "",
 		subclass: "Brawler",
@@ -69,7 +73,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Othmar",
-		category: "0",
+		jname: "ZZZZ", 
+ 		category: "0",
 		race: "Human (Kul Tiran)",
 		class: "Outlaw",
 		subclass: "",
@@ -79,7 +84,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Ehawee",
-		category: "0",
+		jname: "ZZZZ", 
+ 		category: "0",
 		race: "Human (Kul Tiran)",
 		class: "Druid",
 		subclass: "Drust",
@@ -89,7 +95,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Ashworth",
-		category: "0",
+		jname: "ZZZZ", 
+ 		category: "0",
 		race: "Human (Worgen cursed)",
 		class: "Warrior",
 		subclass: "Fury",
@@ -99,7 +106,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Fitzsimmons",
-		category: "0",
+		jname: "ZZZZ", 
+ 		category: "0",
 		race: "Human (Worgen cursed)",
 		class: "Mage",
 		subclass: "Arcane",
@@ -109,7 +117,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Thanathal",
-		category: "0",
+		jname: "ZZZZ", 
+ 		category: "0",
 		race: "Human (Forsaken Undead)",
 		class: "Mage",
 		subclass: "Frost",
@@ -119,7 +128,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Nesmeus",
-		category: "0",
+		jname: "ZZZZ", 
+ 		category: "0",
 		race: "Human (Forsaken Undead)",
 		class: "Beastmaster",
 		subclass: "",
@@ -136,7 +146,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Gorthul",
-		category: "1",
+		jname: "ZZZZ", 
+ 		category: "1",
 		race: "Tainted Shadowmoon Orc",
 		class: "Warlock",
 		subclass: "Fel Destruction",
@@ -146,7 +157,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Lokra",
-		category: "1",
+		jname: "ZZZZ", 
+ 		category: "1",
 		race: "Tainted Frostwolf Orc",
 		class: "Rogue",
 		subclass: "Shadow",
@@ -156,7 +168,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Krogosh",
-		category: "1",
+		jname: "ZZZZ", 
+ 		category: "1",
 		race: "Warsong Orc",
 		class: "Warrior",
 		subclass: "Arms",
@@ -166,7 +179,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Mokaia",
-		category: "1",
+		jname: "ZZZZ", 
+ 		category: "1",
 		race: "Blackrock Orc",
 		class: "Hunter",
 		subclass: "Survival",
@@ -184,7 +198,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Akalyn",
-		category: "2",
+		jname: "ZZZZ", 
+ 		category: "2",
 		race: "Blood Elf",
 		class: "Paladin",
 		subclass: "Retribution",
@@ -194,7 +209,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Sylvie",
-		category: "2",
+		jname: "ZZZZ", 
+ 		category: "2",
 		race: "Blood Elf",
 		class: "Hunter",
 		subclass: "Demon",
@@ -204,7 +220,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Viserys",
-		category: "2",
+		jname: "ZZZZ", 
+ 		category: "2",
 		race: "Blood Elf",
 		class: "Warlock",
 		subclass: "Destruction",
@@ -216,7 +233,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Kaleina",
-		category: "2",
+		jname: "ZZZZ", 
+ 		category: "2",
 		race: "Void Elf",
 		class: "Dancer",
 		subclass: "",
@@ -226,7 +244,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Magus",
-		category: "2",
+		jname: "ZZZZ", 
+ 		category: "2",
 		race: "Void Elf (Undead)",
 		class: "Death Knight",
 		subclass: "Blood",
@@ -238,7 +257,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Yumimori",
-		category: "2",
+		jname: "ZZZZ", 
+ 		category: "2",
 		race: "Night Elf",
 		class: "Hunter",
 		subclass: "Marksmanship",
@@ -248,7 +268,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Wildthorn",
-		category: "2",
+		jname: "ZZZZ", 
+ 		category: "2",
 		race: "Night Elf",
 		class: "Druid",
 		subclass: "Restoration",
@@ -258,7 +279,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Yfedion",
-		category: "2",
+		jname: "ZZZZ", 
+ 		category: "2",
 		race: "Night Elf",
 		class: "Demon Hunter",
 		subclass: "",
@@ -268,7 +290,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Espertina",
-		category: "2",
+		jname: "ZZZZ", 
+ 		category: "2",
 		race: "Night Elf",
 		class: "Mage",
 		subclass: "Highborne",
@@ -280,7 +303,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Runas",
-		category: "2",
+		jname: "ZZZZ", 
+ 		category: "2",
 		race: "Nightborne Elf",
 		class: "Mage",
 		subclass: "Arcane",
@@ -290,7 +314,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Menori",
-		category: "2",
+		jname: "ZZZZ", 
+ 		category: "2",
 		race: "Nightborne Elf",
 		class: "Battle Mage",
 		subclass: "Frost",
@@ -306,7 +331,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Atulza",
-		category: "3",
+		jname: "ZZZZ", 
+ 		category: "3",
 		race: "Sandfury Troll",
 		class: "AAAAAA",
 		subclass: "AAAAAA",
@@ -316,7 +342,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Zukrull",
-		category: "3",
+		jname: "ZZZZ", 
+ 		category: "3",
 		race: "Darkspear Troll",
 		class: "AAAAAA",
 		subclass: "AAAAAA",
@@ -326,7 +353,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Jacynte",
-		category: "3",
+		jname: "ZZZZ", 
+ 		category: "3",
 		race: "Zandalari Troll",
 		class: "AAAAAA",
 		subclass: "AAAAAA",
@@ -336,7 +364,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Jyothi",
-		category: "3",
+		jname: "ZZZZ", 
+ 		category: "3",
 		race: "Zandalari Troll",
 		class: "AAAAAA",
 		subclass: "AAAAAA",
@@ -346,7 +375,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Juanka",
-		category: "3",
+		jname: "ZZZZ", 
+ 		category: "3",
 		race: "Atal'ai Troll",
 		class: "AAAAAA",
 		subclass: "AAAAAA",
@@ -362,7 +392,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Hackwrench",
-		category: "4",
+		jname: "ZZZZ", 
+ 		category: "4",
 		race: "Gnome",
 		class: "Rogue",
 		subclass: "Engineer",
@@ -372,7 +403,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Nimblemind",
-		category: "4",
+		jname: "ZZZZ", 
+ 		category: "4",
 		race: "Gnome",
 		class: "Warlock",
 		subclass: "Demonology",
@@ -382,7 +414,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Rustnozzle",
-		category: "4",
+		jname: "ZZZZ", 
+ 		category: "4",
 		race: "Mechagnome",
 		class: "Explorer",
 		subclass: "Marksman",
@@ -392,7 +425,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Autolizabeth",
-		category: "4",
+		jname: "ZZZZ", 
+ 		category: "4",
 		race: "Mechagnome",
 		class: "Thermo-enhancement specialist",
 		subclass: "",
@@ -408,7 +442,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Megzi",
-		category: "5",
+		jname: "ZZZZ", 
+ 		category: "5",
 		race: "Goblin",
 		class: "/ Rogue",
 		subclass: "Field Medic",
@@ -418,7 +453,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Galvaslag",
-		category: "5",
+		jname: "ZZZZ", 
+ 		category: "5",
 		race: "Goblin",
 		class: "Tinkerer",
 		subclass: "",
@@ -434,7 +470,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Dunheann",
-		category: "6",
+		jname: "ZZZZ", 
+ 		category: "6",
 		race: "Bronzebeard Dwarf",
 		class: "Warrior",
 		subclass: "Protection",
@@ -444,7 +481,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Nathaira",
-		category: "6",
+		jname: "ZZZZ", 
+ 		category: "6",
 		race: "Wildhammer Dwarf",
 		class: "Brewmaster",
 		subclass: "",
@@ -454,7 +492,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Argodan",
-		category: "6",
+		jname: "ZZZZ", 
+ 		category: "6",
 		race: "Dark Iron Dwarf",
 		class: "Shaman",
 		subclass: "Elemental",
@@ -464,7 +503,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Ashandra",
-		category: "6",
+		jname: "ZZZZ", 
+ 		category: "6",
 		race: "Dark Iron Dwarf",
 		class: "Blacksmith",
 		subclass: "",
@@ -480,7 +520,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Riverstone",
-		category: "7",
+		jname: "ZZZZ", 
+ 		category: "7",
 		race: "Rivermane Tauren",
 		class: "Blacksmith",
 		subclass: "",
@@ -490,7 +531,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Chumana",
-		category: "7",
+		jname: "ZZZZ", 
+ 		category: "7",
 		race: "Mistrunner Tauren",
 		class: "",
 		subclass: "",
@@ -500,7 +542,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Menetus",
-		category: "7",
+		jname: "ZZZZ", 
+ 		category: "7",
 		race: "Grimtotem Tauren",
 		class: "",
 		subclass: "",
@@ -510,7 +553,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Chako",
-		category: "7",
+		jname: "ZZZZ", 
+ 		category: "7",
 		race: "Highmountain Tauren",
 		class: "",
 		subclass: "",
@@ -526,7 +570,9 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Ahmos",
-		category: "8",
+		jname: "アーモス",
+		jname: "ZZZZ", 
+ 		category: "8",
 		race: "Draenei",
 		class: "Shaman",
 		subclass: "Warrior",
@@ -536,7 +582,8 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Eaia",
-		category: "8",
+		jname: "ZZZZ", 
+ 		category: "8",
 		race: "Draenei",
 		class: "Beastmaster",
 		subclass: "",
@@ -546,7 +593,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Kih",
-		category: "8",
+		jname: "ZZZZ", 
+ 		category: "8",
 		race: "Lightforged Draenei",
 		class: "Paladin",
 		subclass: "Holy",
@@ -556,7 +604,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Arayla",
-		category: "8",
+		jname: "ZZZZ", 
+ 		category: "8",
 		race: "Lightforged Draenei",
 		class: "Priest",
 		subclass: "Holy",
@@ -573,7 +622,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Kuzunoha",
-		category: "9",
+		jname: "ZZZZ", 
+ 		category: "9",
 		race: "Vulpera",
 		class: "Mistweaver",
 		subclass: "",
@@ -589,7 +639,8 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Zhanglu",
-		category: "10",
+		jname: "ZZZZ", 
+ 		category: "10",
 		race: "Pandaren",
 		class: "Priest",
 		subclass: "Shadow",
@@ -624,6 +675,7 @@ $(document).ready(function(){
 			'<div class="col-md-6">'+
 				'<table class="table table-bordered">'+
 					'<tr><th>Name: </th><td>'+item["name"]+'</td></tr>'+
+					'<tr><th style="white-space:nowrap">片仮名: </th><td>'+item["jname"]+'</td></tr>'+
 					'<tr><th>Race: </th><td>'+item["race"]+'</td></tr>'+
 					'<tr><th>Class: </th><td>'+item["subclass"]+' '+item["class"]+'</td></tr>'+
 					'<tr><th>Age: </th><td>'+item["age"]+'</td></tr>'+
