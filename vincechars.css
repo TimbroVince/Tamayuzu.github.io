@@ -10,9 +10,12 @@ body
 	background-color:black;
 	color:white;
     overflow-y: scroll;
-	scroll-behavior: instant;
 }
 
+body, html
+{
+	scroll-behavior: auto;
+}
 
 .tab-pane
 {

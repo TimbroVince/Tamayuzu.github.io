@@ -33,108 +33,108 @@ $(document).ready(function(){
  		category: "0",
 		race: "Human",
 		class: "Priest",
-		subclass: "Alchemist",
+		subclass: "Alchemist / Discipline",
 		age: 51,
-		story: "Heisenberg combines the power of the light with alchemy."
+		story: ""
 	});
 
 	charData.push({
 		name: "Kratos",
-		jname: "ZZZZ", 
+		jname: "クラトス", 
  		category: "0",
 		race: "Human (Undead)",
-		class: "Death Knight",
+		class: "DeathKnight",
 		subclass: "Frost",
 		age: 43,
-		story: "WWWWWWWW"
+		story: ""
 	});
 	
 	charData.push({
 		name: "Adora",
-		jname: "ZZZZ", 
+		jname: "アードラ", 
  		category: "0",
 		race: "Human",
 		class: "Paladin",
 		subclass: "Protection",
 		age: 27,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Lockhart",
-		jname: "ZZZZ", 
+		jname: "ロックハート", 
  		category: "0",
 		race: "Human",
-		class: "",
-		subclass: "Brawler",
+		class: "Monk",
+		subclass: "Windwalker",
 		age: 31,
-		story: "WWWWWWWW"
+		story: ""
 	});
 	
 	charData.push({
 		name: "Othmar",
-		jname: "ZZZZ", 
+		jname: "オスマル", 
  		category: "0",
 		race: "Human (Kul Tiran)",
-		class: "Outlaw",
-		subclass: "",
+		class: "Rogue",
+		subclass: "Outlaw",
 		age: 47,
-		story: "WWWWWWWW"
+		story: ""
 	});
 
 	charData.push({
 		name: "Ehawee",
-		jname: "ZZZZ", 
+		jname: "エハヱー", 
  		category: "0",
 		race: "Human (Kul Tiran)",
 		class: "Druid",
-		subclass: "Drust",
+		subclass: "Guardian",
 		age: 38,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 
 	charData.push({
 		name: "Ashworth",
-		jname: "ZZZZ", 
+		jname: "アシュワト", 
  		category: "0",
 		race: "Human (Worgen cursed)",
 		class: "Warrior",
 		subclass: "Fury",
 		age: 30,
-		story: "WWWWWWWW"
+		story: ""
 	});
 	
 	charData.push({
 		name: "Fitzsimmons",
-		jname: "ZZZZ", 
+		jname: "フイツシモンス", 
  		category: "0",
 		race: "Human (Worgen cursed)",
 		class: "Mage",
 		subclass: "Arcane",
 		age: 30,
-		story: "WWWWWWWW"
+		story: ""
 	});
 
 	charData.push({
 		name: "Thanathal",
-		jname: "ZZZZ", 
+		jname: "サナソル", 
  		category: "0",
 		race: "Human (Forsaken Undead)",
 		class: "Mage",
 		subclass: "Frost",
 		age: 37,
-		story: "WWWWWWWWWW"
+		story: ""
 	});		
 	
 	charData.push({
 		name: "Nesmeus",
-		jname: "ZZZZ", 
+		jname: "ネスメウス", 
  		category: "0",
 		race: "Human (Forsaken Undead)",
-		class: "Beastmaster",
-		subclass: "",
+		class: "Hunter",
+		subclass: "Beastmaster",
 		age: 26,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	
@@ -146,46 +146,48 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Gorthul",
-		jname: "ZZZZ", 
+		jname: "ゴルスル", 
  		category: "1",
 		race: "Tainted Shadowmoon Orc",
 		class: "Warlock",
-		subclass: "Fel Destruction",
+		subclass: "Destruction",
 		age: 40,
-		story: "Gothul was once a great shaman like every other member of the Shadowmoon Clan but he always wanted more power. He was one of Gul'dan's loyal followers and gladly abandoned the elements in favor of the power offered by the demons of the Burning Legion. In his quest to increase his control over Fel energy, he burned out his own eyes. He is said to be one of the most powerful Orcish Warlocks, second only to Gul'dan himself"
+		story: "",
+		inprog: "Gothul was once a great shaman like every other member of the Shadowmoon Clan but he always wanted more power. He was one of Gul'dan's loyal followers and gladly abandoned the elements in favor of the power offered by the demons of the Burning Legion. In his quest to increase his control over Fel energy, he burned out his own eyes. He is said to be one of the most powerful Orcish Warlocks, second only to Gul'dan himself"
 	});
 	
 	charData.push({
 		name: "Lokra",
-		jname: "ZZZZ", 
+		jname: "ロクラ", 
  		category: "1",
 		race: "Tainted Frostwolf Orc",
 		class: "Rogue",
-		subclass: "Shadow",
+		subclass: "Subtlety",
 		age: 38,
-		story: "Rumored to be the younger sister of Draka, Durotan's mate. She was once part of the Frostwolf Clan, but now she wields void powers like the Shadowmoon Clan once did. She can rarely be seen hunting down members of the Burning Legion wherever they appear and then vanishing into wilds of Kalimdor."
+		story: "",
+		inprog: "Rumored to be the younger sister of Draka, Durotan's mate. She was once part of the Frostwolf Clan, but now she wields void powers like the Shadowmoon Clan once did. She can rarely be seen hunting down members of the Burning Legion wherever they appear and then vanishing into wilds of Kalimdor."
 	});	
 
 	charData.push({
 		name: "Krogosh",
-		jname: "ZZZZ", 
+		jname: "クロゴシュ", 
  		category: "1",
 		race: "Warsong Orc",
 		class: "Warrior",
 		subclass: "Arms",
 		age: 24,
-		story: "WWWWWWWW"
+		story: ""
 	});		
 	
 	charData.push({
 		name: "Mokaia",
-		jname: "ZZZZ", 
+		jname: "モカヤ", 
  		category: "1",
 		race: "Blackrock Orc",
 		class: "Hunter",
 		subclass: "Survival",
 		age: 32,
-		story: "WWWWWWWW"
+		story: ""
 	});		
 
 	// --------------------------
@@ -198,129 +200,129 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Akalyn",
-		jname: "ZZZZ", 
+		jname: "アカリン", 
  		category: "2",
 		race: "Blood Elf",
 		class: "Paladin",
 		subclass: "Retribution",
 		age: 330,
-		story: "WWWWWWWW"
+		story: ""
 	});
 	
 	charData.push({
 		name: "Sylvie",
-		jname: "ZZZZ", 
+		jname: "シルヴィ", 
  		category: "2",
 		race: "Blood Elf",
-		class: "Hunter",
-		subclass: "Demon",
+		class: "DemonHunter",
+		subclass: "Vengeance",
 		age: 615,
-		story: "WWWWWWWW"
+		story: ""
 	});
 	
 	charData.push({
 		name: "Viserys",
-		jname: "ZZZZ", 
+		jname: "ヴィセリッス", 
  		category: "2",
 		race: "Blood Elf",
 		class: "Warlock",
 		subclass: "Destruction",
 		age: 215,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 
 	//Void Elves ---------------
 
 	charData.push({
 		name: "Kaleina",
-		jname: "ZZZZ", 
+		jname: "カレイナ", 
  		category: "2",
 		race: "Void Elf",
-		class: "Dancer",
-		subclass: "",
+		class: "Warlock",
+		subclass: "Dancer / Affliction",
 		age: 115,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Magus",
-		jname: "ZZZZ", 
+		jname: "マグス", 
  		category: "2",
 		race: "Void Elf (Undead)",
-		class: "Death Knight",
+		class: "DeathKnight",
 		subclass: "Blood",
 		age: 2160,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 	
 	//Night elves ---------------
 	
 	charData.push({
 		name: "Yumimori",
-		jname: "ZZZZ", 
+		jname: "弓森", 
  		category: "2",
 		race: "Night Elf",
 		class: "Hunter",
 		subclass: "Marksmanship",
 		age: 1651,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Wildthorn",
-		jname: "ZZZZ", 
+		jname: "ワイルドソオヌ", 
  		category: "2",
 		race: "Night Elf",
 		class: "Druid",
 		subclass: "Restoration",
 		age: 12173,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Yfedion",
-		jname: "ZZZZ", 
+		jname: "イフエヂオン", 
  		category: "2",
 		race: "Night Elf",
-		class: "Demon Hunter",
-		subclass: "",
+		class: "DemonHunter",
+		subclass: "Havoc",
 		age: 10213,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 
 	charData.push({
 		name: "Espertina",
-		jname: "ZZZZ", 
+		jname: "エスペルチナ", 
  		category: "2",
 		race: "Night Elf",
 		class: "Mage",
-		subclass: "Highborne",
+		subclass: "Fire",
 		age: 13193,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 		
 	//Nightborne ---------------
 	
 	charData.push({
 		name: "Runas",
-		jname: "ZZZZ", 
+		jname: "ルナス", 
  		category: "2",
 		race: "Nightborne Elf",
 		class: "Mage",
 		subclass: "Arcane",
 		age: 10312,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Menori",
-		jname: "ZZZZ", 
+		jname: "メノリ", 
  		category: "2",
 		race: "Nightborne Elf",
-		class: "Battle Mage",
+		class: "DeathKnight",
 		subclass: "Frost",
 		age: 10531,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 
 	// --------------------------
@@ -331,57 +333,57 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Atulza",
-		jname: "ZZZZ", 
+		jname: "アツルザ", 
  		category: "3",
 		race: "Sandfury Troll",
-		class: "AAAAAA",
-		subclass: "AAAAAA",
+		class: "Hunter",
+		subclass: "Beastmaster",
 		age: 23,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 
 	charData.push({
 		name: "Zukrull",
-		jname: "ZZZZ", 
+		jname: "ズクロル", 
  		category: "3",
 		race: "Darkspear Troll",
-		class: "AAAAAA",
-		subclass: "AAAAAA",
+		class: "DeathKnight",
+		subclass: "Unholy",
 		age: 115,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Jacynte",
-		jname: "ZZZZ", 
+		jname: "ジャシント", 
  		category: "3",
 		race: "Zandalari Troll",
-		class: "AAAAAA",
-		subclass: "AAAAAA",
+		class: "Druid",
+		subclass: "Dinomancer / Feral",
 		age: 43,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Jyothi",
-		jname: "ZZZZ", 
+		jname: "ジヨチ", 
  		category: "3",
 		race: "Zandalari Troll",
-		class: "AAAAAA",
-		subclass: "AAAAAA",
+		class: "Paladin",
+		subclass: "Protection",
 		age: 180,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Juanka",
-		jname: "ZZZZ", 
+		jname: "ジュアンカ", 
  		category: "3",
 		race: "Atal'ai Troll",
-		class: "AAAAAA",
-		subclass: "AAAAAA",
+		class: "Priest",
+		subclass: "Discipline",
 		age: 24,
-		story: "WWWWWWWW"
+		story: ""
 	});	
 
 	// --------------------------
@@ -392,46 +394,46 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Hackwrench",
-		jname: "ZZZZ", 
+		jname: "ハックレンチ", 
  		category: "4",
 		race: "Gnome",
 		class: "Rogue",
-		subclass: "Engineer",
+		subclass: "Field Medic / Assassination",
 		age: 46,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Nimblemind",
-		jname: "ZZZZ", 
+		jname: "ニンブルマインド", 
  		category: "4",
 		race: "Gnome",
 		class: "Warlock",
 		subclass: "Demonology",
 		age: 110,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Rustnozzle",
-		jname: "ZZZZ", 
+		jname: "ロストノゼル", 
  		category: "4",
 		race: "Mechagnome",
-		class: "Explorer",
+		class: "Hunter",
 		subclass: "Marksman",
 		age: 310,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 
 	charData.push({
 		name: "Autolizabeth",
-		jname: "ZZZZ", 
+		jname: "アウトリザベス", 
  		category: "4",
 		race: "Mechagnome",
-		class: "Thermo-enhancement specialist",
-		subclass: "",
+		class: "Mage",
+		subclass: "Fire",
 		age: 178,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	// --------------------------
@@ -442,24 +444,24 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Megzi",
-		jname: "ZZZZ", 
+		jname: "メグジ", 
  		category: "5",
 		race: "Goblin",
-		class: "/ Rogue",
-		subclass: "Field Medic",
+		class: "Rogue",
+		subclass: "Outlaw",
 		age: 22,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 
 	charData.push({
 		name: "Galvaslag",
-		jname: "ZZZZ", 
+		jname: "ガルバスラッグ", 
  		category: "5",
 		race: "Goblin",
-		class: "Tinkerer",
-		subclass: "",
+		class: "Shaman",
+		subclass: "Tinkerer / Elemental",
 		age: 33,
-		story: "WWWWWWWWWW"
+		story: ""
 	});		
 	
 	// --------------------------
@@ -470,46 +472,46 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Dunheann",
-		jname: "ZZZZ", 
+		jname: "ヅンヘアンヌ", 
  		category: "6",
 		race: "Bronzebeard Dwarf",
 		class: "Warrior",
 		subclass: "Protection",
 		age: 136,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Nathaira",
-		jname: "ZZZZ", 
+		jname: "ナサイラ", 
  		category: "6",
 		race: "Wildhammer Dwarf",
-		class: "Brewmaster",
-		subclass: "",
+		class: "Monk",
+		subclass: "Brewmaster",
 		age: 110,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Argodan",
-		jname: "ZZZZ", 
+		jname: "アルゴダン", 
  		category: "6",
 		race: "Dark Iron Dwarf",
 		class: "Shaman",
 		subclass: "Elemental",
 		age: 217,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Ashandra",
-		jname: "ZZZZ", 
+		jname: "アシャンドラ", 
  		category: "6",
 		race: "Dark Iron Dwarf",
-		class: "Blacksmith",
-		subclass: "",
+		class: "Paladin",
+		subclass: "Retrbution",
 		age: 54,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 
 	// --------------------------
@@ -520,46 +522,46 @@ $(document).ready(function(){
 
 	charData.push({
 		name: "Riverstone",
-		jname: "ZZZZ", 
+		jname: "リバアストン", 
  		category: "7",
 		race: "Rivermane Tauren",
-		class: "Blacksmith",
-		subclass: "",
+		class: "Shaman",
+		subclass: "Restoration",
 		age: 43,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 
 	charData.push({
 		name: "Chumana",
-		jname: "ZZZZ", 
+		jname: "チュマナ", 
  		category: "7",
 		race: "Mistrunner Tauren",
-		class: "",
-		subclass: "",
+		class: "Monk",
+		subclass: "Windwalker",
 		age: 61,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Menetus",
-		jname: "ZZZZ", 
+		jname: "メネツス", 
  		category: "7",
 		race: "Grimtotem Tauren",
-		class: "",
-		subclass: "",
+		class: "Warrior",
+		subclass: "Fury",
 		age: 23,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Chako",
-		jname: "ZZZZ", 
+		jname: "チャコ", 
  		category: "7",
 		race: "Highmountain Tauren",
-		class: "",
-		subclass: "",
+		class: "Druid",
+		subclass: "Balance",
 		age: 28,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 
 	// --------------------------
@@ -571,46 +573,45 @@ $(document).ready(function(){
 	charData.push({
 		name: "Ahmos",
 		jname: "アーモス",
-		jname: "ZZZZ", 
  		category: "8",
 		race: "Draenei",
 		class: "Shaman",
-		subclass: "Warrior",
+		subclass: "Enhancement",
 		age: 6520,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 
 	charData.push({
 		name: "Eaia",
-		jname: "ZZZZ", 
+		jname: "エアイア", 
  		category: "8",
 		race: "Draenei",
-		class: "Beastmaster",
-		subclass: "",
+		class: "Hunter",
+		subclass: "Beastmaster",
 		age: 13415,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Kih",
-		jname: "ZZZZ", 
+		jname: "キ", 
  		category: "8",
 		race: "Lightforged Draenei",
 		class: "Paladin",
 		subclass: "Holy",
 		age: 23100,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	charData.push({
 		name: "Arayla",
-		jname: "ZZZZ", 
+		jname: "アライラ", 
  		category: "8",
 		race: "Lightforged Draenei",
 		class: "Priest",
 		subclass: "Holy",
 		age: 17300,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 
 
@@ -622,13 +623,13 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Kuzunoha",
-		jname: "ZZZZ", 
+		jname: "葛の葉", 
  		category: "9",
 		race: "Vulpera",
-		class: "Mistweaver",
-		subclass: "",
+		class: "Monk",
+		subclass: "Mistweaver",
 		age: 15,
-		story: "WWWWWWWWWW"
+		story: ""
 	});		
 	
 	// --------------------------
@@ -639,13 +640,13 @@ $(document).ready(function(){
 	
 	charData.push({
 		name: "Zhanglu",
-		jname: "ZZZZ", 
+		jname: "ジャンル", 
  		category: "10",
 		race: "Pandaren",
 		class: "Priest",
 		subclass: "Shadow",
 		age: 270,
-		story: "WWWWWWWWWW"
+		story: ""
 	});	
 	
 	
@@ -680,7 +681,7 @@ $(document).ready(function(){
 					'<tr><th>Name: </th><td>'+item["name"]+'</td></tr>'+
 					'<tr><th style="white-space:nowrap">片仮名: </th><td>'+item["jname"]+'</td></tr>'+
 					'<tr><th>Race: </th><td>'+item["race"]+'</td></tr>'+
-					'<tr><th>Class: </th><td>'+item["subclass"]+' '+item["class"]+'</td></tr>'+
+					'<tr><th>Class: </th><td>'+item["subclass"]+' '+getClassColor(item["class"])+'</td></tr>'+
 					'<tr><th>Age: </th><td>'+item["age"]+'</td></tr>'+
 					'<tr><th colspan="2">Story: </th></tr>'+
 					'<tr><td colspan="2">'+item["story"]+'</td></tr>'+
@@ -694,11 +695,35 @@ $(document).ready(function(){
 	  	$("#navbody").css("padding-top", $("#navheader").height());
 	});
 	
+	$("body, html").animate({scrollTop:0}, 200);
 	$(".nav-link").click(function(){
-		$("body, html").animate({scrollTop:0}, Number(0), Number(0));
+		$("body, html").animate({scrollTop:0}, 200);
 	});
 	//Set the body's top paddingBottom
 	
-
+	
 	
 });
+
+function getClassColor(className)
+{
+	var classColor = "#FFFFFF";
+	switch(className){
+		case "Warrior": classColor = "#C79C6E"; break;
+		case "Paladin": classColor = "#F58CBA"; break;
+		case "DeathKnight": classColor = "#C41F3B"; break;
+		case "MageKnight": classColor = "#00FAF6"; break;
+		case "Hunter": classColor = "#ABD473"; break;
+		case "Shaman": classColor = "#0070DE"; break;
+		case "Rogue": classColor = "#FFF569"; break;
+		case "Druid": classColor = "#FF7D0A"; break;
+		case "Monk": classColor = "#00FF96"; break;
+		case "DemonHunter": classColor = "#A335EE"; break;
+		case "Mage": classColor = "#69CCF0"; break;
+		case "Priest": classColor = "#FFFFD6"; break;
+		case "Warlock": classColor = "#9482C9"; break;
+		default: classColor = "#FFFFFF"; break;
+	}
+	
+	return('<span style="color:' + classColor + '">' + className + '</span>');
+}	
