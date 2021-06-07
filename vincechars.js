@@ -662,6 +662,9 @@ $(document).ready(function(){
 	$("#nav-0-btn").addClass("active");
 	$("#nav-0").addClass("active show");
 	
+	
+	
+	
 	charData.forEach(function(item){
 		
 		var currTab = $("#nav-"+item["category"]);
@@ -690,7 +693,12 @@ $(document).ready(function(){
 	$( window ).resize(function() {
 	  	$("#navbody").css("padding-top", $("#navheader").height());
 	});
+	
+	$(".nav-link").click(function(){
+		$("body, html").animate({scrollTop:0}, Number(0), Number(0));
+	});
 	//Set the body's top paddingBottom
+	
 
 	
 });
