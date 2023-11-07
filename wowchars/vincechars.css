@@ -49,9 +49,10 @@ body, html
 }
 .table tr th
 {
-	width:3.2rem;
+	width:9rem;
 	border-color:#333333;
 	color:#FFFFAA;
+	font-weight:normal;
 }
 
 .table tr td

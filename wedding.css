@@ -1,0 +1,163 @@
+div
+{
+	padding:0px;
+	margin:0px;
+}
+
+img
+{
+    max-width: 100%; 
+    height: auto;
+}
+
+body
+{
+	background-color:#F1EDEC;
+	color:#262625;
+    overflow-y: scroll;
+	
+}
+
+h1, #myInv{
+	width:100%;
+}
+
+#myInv{
+	font-family: 'Brush Script MT', cursive;
+	font-size:33px;
+	color:darkcyan;
+}
+
+h1{
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 5vw;
+	margin-bottom: 4vw;
+	color:#695F43;
+}
+
+body, html
+{
+	scroll-behavior: auto;
+}
+
+.containerbig {
+    display: grid;
+    grid-template-columns: 287px 1fr 287px;
+    grid-template-rows: 200px 1fr 200px;
+    height: 90vh;
+	padding-right:-40px;
+	padding-left:-40px;
+	overflow:visible;
+}
+
+.slice {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-left {
+    background-image: url('TOPLEFT.png');
+}
+
+.top-middle {
+    background-image: url('BELL.png'), url('TOP.png');
+	background-size: 65px auto, auto 100%; /* Fit the background image vertically and maintain its aspect ratio */
+    background-repeat: no-repeat, repeat-x; /* Repeat the image horizontally (x-direction) */
+	background-position:center bottom 40px, center bottom;
+}
+
+.top-right {
+    background-image: url('TOPRIGHT.png');
+}
+
+.left {
+    background-image: url('LEFT.png'), url('LEFT_BARS.png');
+	background-size: 100% auto, 100% auto; /* Fit the background image vertically and maintain its aspect ratio */
+	background-repeat:no-repeat, repeat-y; /* Fit the background image vertically and maintain its aspect ratio */
+	background-position: center; /* Center the background image horizontally */
+}
+
+.right {
+    background-image: url('RIGHT.png'), url('RIGHT_BARS.png');
+	background-size: 100% auto, 100% auto; /* Fit the background image vertically and maintain its aspect ratio */
+	background-repeat:no-repeat, repeat-y; /* Fit the background image vertically and maintain its aspect ratio */
+	background-position: center; /* Center the background image horizontally */
+}
+
+.bottom-left {
+    background-image: url('BOTTOMLEFT.png'), url('KNOT-LEFT.png');
+	background-size: auto 100%, auto 65%;
+	background-repeat: no-repeat, repeat-x;
+	background-position: left, left bottom 72px; /* Center the background image horizontally */
+}
+
+
+
+.bottom-middle {
+    background-image: url('KNOT.png'), url('KNOT-RIGHT.png'), url('KNOT-LEFT.png'), url('BOTTOM.png') ;
+	background-size: auto 65%, 50% 65%, auto 65%, auto 100%; /* Fit the background image vertically and maintain its aspect ratio */
+    background-repeat: no-repeat, no-repeat, repeat-x, repeat-x; /* Repeat the image horizontally (x-direction) */
+	background-position: center bottom 72px, right bottom 72px, left bottom 72px, left; /* Center the background image horizontally */
+}
+
+.bottom-right {
+    background-image: url('BOTTOMRIGHT.png'), url('KNOT-RIGHT.png');
+	background-size: auto 100%, auto 65%;
+	background-repeat: no-repeat, repeat-x;
+	background-position: left, right bottom 72px; /* Center the background image horizontally */
+}
+
+.content {
+    padding: 0px; /* Add padding as needed for your content */
+	width: calc(100% + 160px); /* 100% width + 50px left and 50px right overflow */
+	margin: 0 -80px; /* Negative margins to allow spillover */
+
+}
+
+.mid-left{
+	z-index: 2000;
+	padding-right:30px;
+}
+
+.mid-right{
+	z-index: 2000;
+	padding:10px;
+	font-size:20px;
+	font-family: 'Calibri', 'Arial';
+}
+
+.mid-mid{
+	z-index: 2000;
+	padding-left:22.5px;
+	padding-right:22.5px;
+}
+
+#nav
+{
+	text-align:right;
+	width:100%;
+}
+#nav a
+{
+	padding:0 20px 0 20px;
+}
+
+/* Style to make text look like a link */
+#nav a {
+	text-decoration: none; /* Remove underline on hover */
+	color: blue; /* Set the text color to blue (or your desired link color) */
+	cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+/* Style for visited links */
+#nav a:visited {
+	color: purple; /* Set the color of visited links (you can choose your color) */
+}
+
+/* Style for links on hover */
+#nav a:hover {
+	text-decoration: underline; /* Underline the text */
+	color: blue; /* Change text color on hover (you can choose your color) */
+}

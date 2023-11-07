@@ -1,0 +1,157 @@
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Vincent and Reina's Wedding Party!</title>
+</head>
+
+<body>
+    <div id="nav" role="navigation">
+        <a id="frlnk">Français</a>
+        <a id="enlnk">English</a>
+        <a id="jplnk">日本語</a>
+    </div>
+
+    <div class="containerbig">
+        <div class="top-left slice"></div>
+        <div class="top-middle slice"></div>
+        <div class="top-right slice"></div>
+        <div class="left slice"></div>
+        <div class="middle slice">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-md-12 mid-mid">
+                        <p id="myInv">INV</p>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="col-md-12 mid-mid">
+                        <h1 id="myH1">V&R</h1>
+                    </div>
+                </div>   
+                <div class="row">
+                    <div class="mid-left col-lg-6 col-md-12 text-left mb-3">
+                        <img id="charImg" src="chars.png" />
+                    </div>
+                    <div class="mid-right col-lg-6 col-md-12">
+                        <p id="myPar1">Erreur lors du chargement du texte ! Veuillez actualiser la page</p>
+                        <p><ul><li id="myPar2">DATE : </li><li id="myPar3">HEURE : </li></ul></p>
+                        <p id="myPar4">Erreur lors du chargement du texte ! Veuillez actualiser la page</p>
+                        <p id="myPar5">Erreur lors du chargement du texte ! Veuillez actualiser la page</p>
+                        <p><a id="myPar6" href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEeZ7yzv3lUOFJWMk4wSEdaOUpONVZEMkQyTDJaWVBLNC4u">Erreur lors du chargement</a></p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div class="right slice"></div>
+        <div class="bottom-left slice"></div>
+        <div class="bottom-middle slice"></div>
+        <div class="bottom-right slice"></div>
+    </div>
+</body>
+
+<script>
+    const h1Element = document.getElementById('myH1');
+    const invitedElem = document.getElementById('myInv');
+    const par1Elem = document.getElementById('myPar1');
+    const par2Elem = document.getElementById('myPar2');
+    const par3Elem = document.getElementById('myPar3');
+    const par4Elem = document.getElementById('myPar4');
+    const par5Elem = document.getElementById('myPar5');
+    const par6Elem = document.getElementById('myPar6');
+    const imgElem = document.getElementById('charImg');
+
+    const frLnk = document.getElementById('frlnk');
+    const enLnk = document.getElementById('enlnk');
+    const jpLnk = document.getElementById('jplnk');
+    const randomNumber = Math.floor(Math.random() * 2);
+
+    window.onload = function () {
+
+        const lang = getQueryParamValue('lang');
+        imgElem.style.transform = (randomNumber == 0) ? 'scaleX(-1)' : 'scaleX(1)';
+
+        if (lang === 'en') {
+            setEnglish();
+        } else if (lang === 'fr') {
+            setFrench();
+        } else if (lang === 'jp') {
+            setJapanese();
+        } else {
+            console.log('Language is not recognized or the variable does not exist. Defaulting to French');
+
+        }
+    }; 
+
+    function getQueryParamValue(paramName) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(paramName);
+    }
+
+    function setEnglish()
+    {
+        console.log('Language is English.');
+        h1Element.textContent = (randomNumber == 0) ? "REINA and VINCENT'S WEDDING PARTY" : "VINCENT and REINA'S WEDDING PARTY";
+        invitedElem.textContent = "You have been invited to:";
+        par1Elem.innerHTML = "We are thrilled to invite you to celebrate our love and union on our special day!";
+        par2Elem.innerHTML = "DATE: <strong>Saturday January 27th, 2024</strong>";
+        par3Elem.innerHTML = "HOUR: TBD, definitely in the afternoon!";
+        par4Elem.innerHTML = "Your presence will mean the world to us as we embark on this beautiful journey together, but we completely understand if you can't make it! More details will follow should you accept this invitation.";
+        par5Elem.innerHTML = "Please kindly let us know your if you will be able to join us by <strong>November 22, 2023</strong> by using the following form:";
+        par6Elem.innerHTML = "Guest registration form";
+        par6Elem.href = "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEeZ7yzv3lUOFJWMk4wSEdaOUpONVZEMkQyTDJaWVBLNC4u";
+    }
+
+    function setFrench()
+    {
+        console.log('Language is French.');
+    }
+
+    function setJapanese()
+    {
+        console.log('Language is Japanese.');
+    }
+
+</script>
+
+<footer>
+    <link href="wedding.css" rel="stylesheet">
+</footer>
+
+<!--
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+	<link href="wedding.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="container" role="navigation">
+        <div class="row">
+            <div class="col-md-1 flexer topleft"><img src="TOPLEFT.png"></div>        
+            <div class="col-md-10 topmid"></div>
+            <div class="col-md-1 flexer topright"><img src="TOPRIGHT.png"></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-1 midleft">asdf</div>        
+            <div class="col-md-6 midmidA">asdf</div>
+            <div class="col-md-4 midmidB">asdf</div>
+            <div class="col-md-1 midright">asdf</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1 bottomleft">asdf</div>        
+            <div class="col-md-10 bottommid">asdf</div>
+            <div class="col-md-1 bottomright">asdf</div>
+        </div>
+
+    </div> 
+</body>
+-->
