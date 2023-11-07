@@ -25,7 +25,7 @@ h1, #myInv{
 #myInv{
 	font-family: 'Brush Script MT', cursive;
 	font-size:33px;
-	color:darkcyan;
+	color:#0d6efd;
 }
 
 h1{
@@ -93,7 +93,9 @@ body, html
 	background-position: left, left bottom 72px; /* Center the background image horizontally */
 }
 
-
+.nowrap {
+	white-space: nowrap ;
+  }
 
 .bottom-middle {
     background-image: url('KNOT.png'), url('KNOT-RIGHT.png'), url('KNOT-LEFT.png'), url('BOTTOM.png') ;
@@ -113,7 +115,7 @@ body, html
     padding: 0px; /* Add padding as needed for your content */
 	width: calc(100% + 160px); /* 100% width + 50px left and 50px right overflow */
 	margin: 0 -80px; /* Negative margins to allow spillover */
-
+	max-width: calc(100% + 160px);
 }
 
 .mid-left{
@@ -138,10 +140,11 @@ body, html
 {
 	text-align:right;
 	width:100%;
+	padding-right:57px;
 }
 #nav a
 {
-	padding:0 20px 0 20px;
+	padding:0 0px 0 20px;
 }
 
 /* Style to make text look like a link */

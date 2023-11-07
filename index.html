@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>Vincent and Reina's Wedding Party!</title>
+    <title>Marriage de Reina et Vincent</title>
 </head>
+
 
 <body>
     <div id="nav" role="navigation">
-        <a id="frlnk">Français</a>
-        <a id="enlnk">English</a>
-        <a id="jplnk">日本語</a>
+        <a id="frlnk" href="./?lang=fr" target="_self">Français</a>
+        <a id="enlnk" href="./?lang=en" target="_self">English</a>
+        <a id="jplnk" href="./?lang=jp" target="_self">日本語</a>
     </div>
 
     <div class="containerbig">
@@ -23,12 +24,12 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-md-12 mid-mid">
-                        <p id="myInv">INV</p>
+                        <p id="myInv">Vous avez été invité au :</p>
                     </div>
                 </div>  
                 <div class="row">
                     <div class="col-md-12 mid-mid">
-                        <h1 id="myH1">V&R</h1>
+                        <h1 id="myH1">MARIAGE DE REINA ET VINCENT</h1>
                     </div>
                 </div>   
                 <div class="row">
@@ -36,11 +37,11 @@
                         <img id="charImg" src="chars.png" />
                     </div>
                     <div class="mid-right col-lg-6 col-md-12">
-                        <p id="myPar1">Erreur lors du chargement du texte ! Veuillez actualiser la page</p>
-                        <p><ul><li id="myPar2">DATE : </li><li id="myPar3">HEURE : </li></ul></p>
-                        <p id="myPar4">Erreur lors du chargement du texte ! Veuillez actualiser la page</p>
-                        <p id="myPar5">Erreur lors du chargement du texte ! Veuillez actualiser la page</p>
-                        <p><a id="myPar6" href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEeZ7yzv3lUOFJWMk4wSEdaOUpONVZEMkQyTDJaWVBLNC4u">Erreur lors du chargement</a></p>
+                        <p id="myPar1">Nous sommes ravis de vous inviter à célébrer notre amour et notre union lors de notre jour spécial !</p>
+                        <p><ul><li id="myPar2">DATE : <strong>Samedi 27 janvier 2024</strong></li><li id="myPar3">HEURE : <strong>À déterminer, certainement dans l'après-midi !</strong></li></ul></p>
+                        <p id="myPar4">Votre présence signifiera le monde pour nous alors que nous nous embarquons ensemble dans ce magnifique voyage, mais nous comprenons parfaitement si vous ne pouvez pas être des nôtres ! Plus de détails suivront selon votre méthode de contact préférée et sur ce site Web.</p>
+                        <p id="myPar5">Veuillez nous informer de votre disponibilité d'ici le <strong>Mercredi 22 novembre 2023</strong> en utilisant le formulaire suivant :</p>
+                        <p><a id="myPar6" href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEeZ7yzv3lUOUg5TTFWN0hIWkhWNktFTFFNQ0lYTVFUUC4u&lang=fr-CA" target="_blank">Formulaire d'inscription des invités</a></p>
                     </div>
                 </div>                
             </div>
@@ -81,7 +82,7 @@
             setJapanese();
         } else {
             console.log('Language is not recognized or the variable does not exist. Defaulting to French');
-
+            setFrench();
         }
     }; 
 
@@ -92,26 +93,50 @@
 
     function setEnglish()
     {
+        document.documentElement.lang = 'en';
         console.log('Language is English.');
-        h1Element.textContent = (randomNumber == 0) ? "REINA and VINCENT'S WEDDING PARTY" : "VINCENT and REINA'S WEDDING PARTY";
+        h1Element.textContent = (randomNumber == 0) ? "REINA and VINCENT'S WEDDING" : "VINCENT and REINA'S WEDDING";
+        document.title = (randomNumber == 0) ? "REINA and VINCENT'S WEDDING" : "VINCENT and REINA'S WEDDING";
         invitedElem.textContent = "You have been invited to:";
         par1Elem.innerHTML = "We are thrilled to invite you to celebrate our love and union on our special day!";
         par2Elem.innerHTML = "DATE: <strong>Saturday January 27th, 2024</strong>";
-        par3Elem.innerHTML = "HOUR: TBD, definitely in the afternoon!";
-        par4Elem.innerHTML = "Your presence will mean the world to us as we embark on this beautiful journey together, but we completely understand if you can't make it! More details will follow should you accept this invitation.";
+        par3Elem.innerHTML = "HOUR: <strong>TBD, definitely in the afternoon!</strong>";
+        par4Elem.innerHTML = "Your presence will mean the world to us as we embark on this beautiful journey together, but we completely understand if you can't make it! More details will follow to your prefered contact method and on this website.";
         par5Elem.innerHTML = "Please kindly let us know your if you will be able to join us by <strong>Wednesday November 22, 2023</strong> using the following form:";
         par6Elem.innerHTML = "Guest registration form";
-        par6Elem.href = "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEeZ7yzv3lUOFJWMk4wSEdaOUpONVZEMkQyTDJaWVBLNC4u";
+        par6Elem.href = "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEeZ7yzv3lUOFJWMk4wSEdaOUpONVZEMkQyTDJaWVBLNC4u&lang=en-CA";
     }
 
     function setFrench()
     {
+        document.documentElement.lang = 'fr';
         console.log('Language is French.');
+        h1Element.textContent = (randomNumber == 0) ? "MARIAGE DE REINA ET VINCENT" : "MARIAGE DE VINCENT ET REINA";
+        document.title = (randomNumber == 0) ? "MARIAGE DE REINA ET VINCENT" : "MARIAGE DE VINCENT ET REINA";
+        invitedElem.textContent = "Vous avez été invité au :";
+        par1Elem.innerHTML = "Nous sommes ravis de vous inviter à célébrer notre amour et notre union lors de notre jour spécial !";
+        par2Elem.innerHTML = "DATE : <strong>Samedi 27 janvier 2024</strong>";
+        par3Elem.innerHTML = "HEURE : <strong>À déterminer, certainement dans l'après-midi !</strong>";
+        par4Elem.innerHTML = "Votre présence signifiera le monde pour nous alors que nous nous embarquons ensemble dans ce magnifique voyage, mais nous comprenons parfaitement si vous ne pouvez pas être des nôtres ! Plus de détails suivront selon votre méthode de contact préférée et sur ce site Web.";
+        par5Elem.innerHTML = "Veuillez nous informer de votre disponibilité d'ici le <strong>Mercredi 22 novembre 2023</strong> en utilisant le formulaire suivant :";
+        par6Elem.innerHTML = "Formulaire d'inscription des invités";
+        par6Elem.href = "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEeZ7yzv3lUOUg5TTFWN0hIWkhWNktFTFFNQ0lYTVFUUC4u&lang=fr-CA";
     }
 
     function setJapanese()
     {
+        document.documentElement.lang = 'ja';
         console.log('Language is Japanese.');
+        h1Element.innerHTML = (randomNumber == 0) ? "<span class='nowrap'>玲奈</span>と<span class='nowrap'>ヴィンセント</span>の<span class='nowrap'>結婚式</span>" : "<span class='nowrap'>ヴィンセント</span>と<span class='nowrap'>玲奈</span>の<span class='nowrap'>結婚式</span>";
+        document.title = (randomNumber == 0) ? "玲奈とヴィンセントの結婚式" : "ヴィンセントと玲奈の結婚式";
+        invitedElem.textContent = "あなたは招待されました：";
+        par1Elem.innerHTML = "私たちは私たちの愛と結びつきを祝うために、特別な日にあなたを招待できることを喜んでいます！";
+        par2Elem.innerHTML = "日付： <strong>2024年1月27日（土曜日）</strong>";
+        par3Elem.innerHTML = "時間：<strong>まだ未定、おそらく午後に行います！</strong>";
+        par4Elem.innerHTML = "あなたの存在は、私たちが一緒にこの美しい旅に乗り出す際に、私たちにとって非常に大切な意味を持ちます。しかし、参加できない場合も、完全に理解しています！詳細情報は、お好みの連絡方法とこのウェブサイトで後日提供されます。";
+        par5Elem.innerHTML = "以下のフォームを使用して、参加の可否を<str>2023年11月22日（水曜日）</strong>までにお知らせください：";
+        par6Elem.innerHTML = "ゲスト登録フォーム";
+        par6Elem.href = "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEeZ7yzv3lUMFRGVkJJRFczUE9BTDZESkNORk9GNzFHSi4u&lang=ja";
     }
 
 </script>
