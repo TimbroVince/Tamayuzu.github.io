@@ -11,14 +11,66 @@
 <body>
     <div class="content container">
         <div class="row">
+            <div class="col-md-12 mid-mid">
+                <p id="title">Timbro family Christmas 2023 - Tony's list</p>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-6 mid-mid">
-                <p id="myInv">Type A gifts - 0%</p>
-                <p></p>
+                <p class="headr typeA">Type A gifts - 0%</p>
+                <div class="stuffA" >
+                    <ul><li></li></ul>
+                </div>
             </div>
             <div class="col-md-6 mid-mid">
-                <p id="myInv">Type B gifts - 100%</p>
-                <p>Gaming mouse, small Loki figurine, medium pair of jogging pants</p>
+                <p class="headr typeB">Type B gifts - 100%</p>
+                <div class="stuffB">
+                    <ul><li>Gaming mouse (not huge)</li><li>Small Loki figurines</li><li>Medium pair of jogging pants</li><li>Electronic musical keyboard</li></ul>
+                </div>
             </div>
         </div>  
     </div>
 </body>
+
+<style>
+    body{
+        background-color:#28543c
+    }
+
+    .headr, .stuffA, .stuffB{
+        border:1px solid white;
+        padding:15px;
+        color:white;  
+        background-color:#3C7C55;  
+    }
+
+    .stuffA{
+        margin-bottom:20px;
+    }
+
+    .typeA{
+        background: linear-gradient(to right, #901a1a 0%, #3C7C55 0%); 
+    }
+
+    .typeB{
+        background: linear-gradient(to right, #901a1a 100%, #3C7C55 0%);
+    }
+
+    ul{
+        margin-bottom:0;
+    }
+
+    #title{
+        font-size:3em;
+        color:white;
+        text-align: center;
+    }
+
+    a{
+        color:aquamarine;
+    }
+
+    a:visited{
+        color:aquamarine;
+    }
+</style>
